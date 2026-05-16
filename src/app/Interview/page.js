@@ -10,11 +10,7 @@ import {
   FaPhoneSlash,
 } from "react-icons/fa";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_ENDPOINT ||
-  process.env.ENDPOINT ||
-  "http://localhost:8000";
-
+const API_BASE = "https://screen-system-backend-production.up.railway.app";
 const SILENCE_TIMEOUT_MS = 60000;
 const MAX_INTERVIEW_MS = 20 * 60 * 1000; // 20 minutes hard cap
 
