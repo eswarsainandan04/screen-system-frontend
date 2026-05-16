@@ -15,10 +15,7 @@ import {
   FaTimesCircle,
 } from "react-icons/fa";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_ENDPOINT ||
-  process.env.ENDPOINT ||
-  "http://localhost:8000";
+const API_BASE = "https://screen-system-backend-production.up.railway.app";
 
 export default function DashboardPage() {
   const router = useRouter();
