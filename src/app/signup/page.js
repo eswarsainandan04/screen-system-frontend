@@ -4,10 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_ENDPOINT ||
-  process.env.ENDPOINT ||
-  "http://localhost:8000";
+const API_BASE = "https://screen-system-backend-production.up.railway.app";
 
 export default function SignupPage() {
   const router = useRouter();
