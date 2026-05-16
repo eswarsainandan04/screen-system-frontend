@@ -3,11 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_ENDPOINT ||
-  process.env.ENDPOINT ||
-  "http://localhost:8000";
-
+const API_BASE = "https://screen-system-backend-production.up.railway.app";
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 function ScoreRing({ score }) {
